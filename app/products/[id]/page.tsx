@@ -41,7 +41,7 @@ export default function ProductDetails({ params }: ProductPageProps) {
             {product.name}
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 mb-6">
-            {product.description || "This stylish piece adds a touch of elegance to any outfit."}
+            This stylish piece adds a touch of elegance to any outfit.
           </p>
           <p className="text-2xl font-semibold text-blue-700 mb-6">
             ₦{product.price.toLocaleString()}
