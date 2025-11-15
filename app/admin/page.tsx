@@ -98,7 +98,7 @@ export default function AdminDashboard() {
               </p>
               <div className="flex gap-2">
                 <Button variant="outline" size="icon"
-                onClick= {() => editProduct(product.id)}
+                onClick={() => editProduct(product)}
                 >
                   <Edit className="w-4 h-4" />
                 </Button>
